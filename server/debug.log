@@ -1,0 +1,4 @@
+[2026-09-11 08:42:10] INFO  server boot (local dev)
+[2026-09-11 08:42:10] INFO  loaded 8 stations from data/stations.json
+[2026-09-11 08:55:23] DEBUG GET /health 200 1ms
+[2026-09-11 08:55:29] DEBUG GET /api/stations 501 0ms

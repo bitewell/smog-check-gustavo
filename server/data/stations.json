@@ -1,0 +1,94 @@
+[
+  {
+    "id": "hnl",
+    "name": "Honolulu - Waikiki",
+    "region": "Hawaii",
+    "uvIndex": 2,
+    "lastUpdated": "2026-09-14T21:00:00Z",
+    "__internalId": "uvnet-15-hnl-01",
+    "readings": [
+      { "ts": "2026-09-14T17:00:00Z", "uvIndex": 1 },
+      { "ts": "2026-09-14T19:00:00Z", "uvIndex": 2 },
+      { "ts": "2026-09-14T21:00:00Z", "uvIndex": 2 }
+    ]
+  },
+  {
+    "id": "sd",
+    "name": "San Diego - Balboa Park",
+    "region": "California",
+    "uvIndex": 5,
+    "lastUpdated": "2026-09-14T21:00:00Z",
+    "__internalId": "uvnet-06-sd-04",
+    "readings": [
+      { "ts": "2026-09-14T19:00:00Z", "uvIndex": 4 },
+      { "ts": "2026-09-14T21:00:00Z", "uvIndex": 5 }
+    ]
+  },
+  {
+    "id": "mia",
+    "name": "Miami - Brickell",
+    "region": "Florida",
+    "uvIndex": 6,
+    "lastUpdated": "2026-09-14T21:00:00Z",
+    "__internalId": "uvnet-12-mia-02",
+    "readings": [
+      { "ts": "2026-09-14T19:00:00Z", "uvIndex": 6 },
+      { "ts": "2026-09-14T21:00:00Z", "uvIndex": 6 }
+    ]
+  },
+  {
+    "id": "tuc",
+    "name": "Tucson - University",
+    "region": "Arizona",
+    "uvIndex": 9,
+    "lastUpdated": "2026-09-14T21:00:00Z",
+    "__internalId": "uvnet-04-tuc-07",
+    "readings": [
+      { "ts": "2026-09-14T19:00:00Z", "uvIndex": 8 },
+      { "ts": "2026-09-14T21:00:00Z", "uvIndex": 9 }
+    ]
+  },
+  {
+    "id": "abq",
+    "name": "Albuquerque - Foothills",
+    "region": "New Mexico",
+    "uvIndex": 11,
+    "lastUpdated": "2026-09-14T21:00:00Z",
+    "__internalId": "uvnet-35-abq-03",
+    "readings": [
+      { "ts": "2026-09-14T19:00:00Z", "uvIndex": 10 },
+      { "ts": "2026-09-14T21:00:00Z", "uvIndex": 11 }
+    ]
+  },
+  {
+    "id": "test-hi",
+    "name": "Calibration Rig",
+    "region": "Test",
+    "uvIndex": 14,
+    "lastUpdated": "2026-09-14T21:00:00Z",
+    "__internalId": "internal-rig-01",
+    "readings": [
+      { "ts": "2026-09-14T21:00:00Z", "uvIndex": 14 }
+    ]
+  },
+  {
+    "id": "anc-offline",
+    "name": "Anchorage - Midtown",
+    "region": "Alaska",
+    "uvIndex": null,
+    "lastUpdated": "2026-09-13T18:00:00Z",
+    "__internalId": "uvnet-02-anc-05",
+    "readings": []
+  },
+  {
+    "id": "kc",
+    "name": "Kansas City - Plaza",
+    "uvIndex": 7,
+    "lastUpdated": "2026-09-14T21:00:00Z",
+    "__internalId": "uvnet-29-kc-06",
+    "readings": [
+      { "ts": "2026-09-14T19:00:00Z", "uvIndex": 6 },
+      { "ts": "2026-09-14T21:00:00Z", "uvIndex": 7 }
+    ]
+  }
+]
