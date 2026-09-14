@@ -1,5 +1,6 @@
 import cors from 'cors';
 import express from 'express';
+import { getStations } from './stations';
 
 const app = express();
 app.use(cors());
@@ -10,12 +11,8 @@ app.get('/health', (_req, res) => {
   res.json({ ok: true });
 });
 
-// TODO: implement this.
-// It should return the stations from data/stations.json as a clean, typed
-// JSON list. See the README for what "clean" means. The data file is not
-// perfectly tidy on purpose.
 app.get('/api/stations', (_req, res) => {
-  res.status(501).json({ error: 'Not implemented' });
+  res.json(getStations());
 });
 
 app.listen(PORT, () => {
